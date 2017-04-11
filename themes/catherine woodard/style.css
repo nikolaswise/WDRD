@@ -1,0 +1,202 @@
+/*
+Theme Name: Catherine Woodard
+Theme URI: http://catherinewoodard.com/
+Author: Catherine Woodard
+Author URI: http://catherinewoodard.com/
+Description: This is the theme for Catherine Woodard
+Version: 1.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: catherinewoodard
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+/*html{background-image:; background-repeat: repeat;}*/
+body{
+  background-color: #f0f0ef;
+  /*background-image: url('img/sculpture.png');*/
+  /*background-repeat: no-repeat;*/
+  /*background-attachment: fixed;*/
+  /*background-position: bottom right;*/
+  /*background-position: 840px 220px;*/
+  font-family: Georgia, serif;
+  font-size: 12px;
+  line-height: 21px;
+}
+em{font-style: italic;}
+
+a{color: #000; text-decoration: none;}
+a:hover{text-decoration: underline;}
+
+h1{font-size: 18px; font-weight: bold; margin-top: 0;}
+h3{font-size: 14px; font-weight: bold; margin-bottom: 24px;}
+h4{font-size: 11px; font-weight: bold; margin: 12px 0 12px 0;}
+
+blockquote {
+  font-size: 21px;
+  line-height: 1.45;
+  margin: 12px 0 12px 0;
+}
+
+.caption {
+  margin-top: 6px;
+  margin-bottom: 21px;
+}
+
+.size-half {
+  max-width: 47%;
+  height: auto;
+}
+
+p a{color: #3d6efa;}
+.page p a{color: #000; text-decoration: underline;}
+.page p a:hover{color: #3d6efa;}
+
+li.current{font-style:italic;}
+li.current a{color: #3D6EFA;}
+
+.wrap {
+  width: 960px;
+  margin: 0 auto;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+.layout-aside {
+  width: 195px;
+  margin: 12px 36px;
+  float: left;
+}
+.layout-main {
+  position: relative;
+  float: right;
+  width: 620px;
+  margin: 12px 36px;
+}
+
+#header, #main, #footer{width: 100%; float: left;}
+
+#header{border-bottom: 3px double #000; margin-top: 18px; padding-bottom: 12px;}
+
+img#logo{float: left; height: 128px; width: 128px;}
+img#logo:hover{opacity: 0.5;}
+
+/*#nav-container{margin-left: 175px; float: left; font-style: italic;}*/
+/*#name-img{margin: 33px 0 35px 7px; width: 406px; height: 32px; opacity: 1;}*/
+/*#name-img:hover{opacity: 0.5;}*/
+/*ul#navigation li*/
+
+.nav-header {
+  text-align: center;
+  margin: 49px 0 35px 0;
+}
+.header-link {
+  font-weight: 100;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  font-family: Futura, 'Trebuchet MS';
+  font-size: 36px;
+}
+.header-link:hover {
+  text-decoration: none;
+  opacity: 0.5;
+}
+.navigation-item {
+  font-style: italic;
+  float: left;
+  font-size: 14px;
+  margin-right: 36px;
+  margin-left: 0;
+}
+.navigation-item:last-of-type {
+  margin-right: 0px;
+}
+.svg-icon {
+  display: inline-block;
+  width: .875em;
+  height: .875em;
+  vertical-align: -.125em;
+  padding-right: .125em;
+  fill: currentColor;
+}
+
+
+.page {
+  max-width: 100%;
+  background: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 24px;
+}
+
+.page:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+
+#main{margin: 12px 0 12px 0; min-height: 450px;}
+#sidenav{float: left; width: 195px; margin-right: 36px; margin-top: 18px;}
+#sidenav ul li{width: 175px; border-bottom: 1px solid #cfcfcf; }
+
+.fixedElement{width: 185px;}
+/*.fixer{position: fixed;}*/
+
+/*.poem, .project, .page{background: #fff; min-height: 450px;}*/
+.poem, .prjoect{float:left;}
+.poem{width: 438px; margin: 0 auto; float: left; padding: 30px 30px 60px 30px;}
+.poem p{ letter-spacing: 1px;}
+
+.printfriendly{margin-top: 21px;}
+.printfriendly-text{color: #3d6ffa;}
+.project .printfriendly img{width: 16px !important; height: 15px; margin-left: 20px;}
+
+.postswrap{float:left; width: 542px;}
+
+.cover-image {width: 582px; margin: auto;}
+.cover-image img {width: 100%; display: block;}
+
+/*.page{width: 542px; margin: 0 auto; padding: 20px; background: #fff;}*/
+#publications-container{width: 560px; margin: 0 auto; background: #fff;}
+
+.page img{
+  float: left; margin: 0 12px 21px 0;
+}
+img.fill {
+  width: 100%;
+}
+
+.poemnav {
+  /*float: left; */
+  position: absolute;
+  font-size: 18px;
+  /*margin-top: 150px;*/
+  top: 150px;
+}
+
+.poemnav.left{
+  left: -27px;
+}
+.poemnav.right{
+  right: -27px;
+}
+
+.project{width: 542px; margin: 0px auto 21px auto; padding: 0 0 20px 0; float: left; }
+.project p{margin: 21px 20px 0 20px;}
+.project h3{margin: 20px;}
+.project img{width: 542px !important; height: auto;}
+.project p img{max-width: 500px !important; height: auto;}
+
+.row{float:left; width: 520px; clear:both; background: #fff; padding: 20px 20px 0 20px;}
+.publication{width: 160px; margin-right: 20px; float:left;}
+.last-child, .publication:last-child{margin-right: 0;}
+.publication a{display: block;}
+
+
+#footer{padding-bottom: 80px;}
+#copyright{position: fixed; bottom: 10px; right: 50px; font-size: 11px; margin-top: 18px;}
