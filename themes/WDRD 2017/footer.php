@@ -3,32 +3,7 @@
         <div id="copyright">All contents &copy; Catherine Woodard</div>
       </div>
     </div>
-   <script type="text/javascript">
-    $(".open-mobile-menu").click(function(e) {
-      $('.navigation-mobile').addClass('is-active');
-    });
-    $(".close-mobile-menu").click(function(e) {
-      $('.navigation-mobile').removeClass('is-active');
-    });
-    $(".open-mobile-menu").click(function(e) {
-      $('.navigation-mobile').addClass('is-active');
-    });
-    $(".close-mobile-menu").click(function(e) {
-      $('.navigation-mobile').removeClass('is-active');
-    });
 
-    $(".open-mobile-sidenav").click(function(e) {
-      $('.layout-aside').addClass('is-active');
-    });
-    $(".close-mobile-sidenav").click(function(e) {
-      $('.layout-aside').removeClass('is-active');
-    });
-    $(".open-mobile-sidenav").click(function(e) {
-      $('.layout-aside').addClass('is-active');
-    });
-    $(".close-mobile-sidenav").click(function(e) {
-      $('.layout-aside').removeClass('is-active');
-    });
-    </script>
+    <script type="text/javascript" src="/wp-content/themes/WDRD%202017/app.min.js" ></script>
   </body>
 </html>

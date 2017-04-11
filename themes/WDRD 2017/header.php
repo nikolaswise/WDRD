@@ -24,25 +24,6 @@
   	<link rel="stylesheet" type="text/css" media="screen" href="<?php echo get_stylesheet_directory_uri();?>/reset.css" />
   	<link rel="stylesheet" type="text/css" media="screen" href="<?php echo get_stylesheet_directory_uri();?>/style.css" />
   	<link rel="stylesheet" type="text/css" media="print" href="<?php echo get_stylesheet_directory_uri();?>/print.css" />
-
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js" ></script>
-    <script type="text/javascript" src="/wp-includes/js/jquery/jquery.query.js"></script>
-
-    <script type="text/javascript">
-      $(window).scroll(function(e){
-        $el = $('.fixedElement');
-        if ($(this).scrollTop() > 206 && $el.css('position') != 'fixed'){
-          $('.fixedElement').css({'position': 'fixed', 'top': '0px', 'margin-top': '0px'});
-        }
-        if ($(this).scrollTop() < 206 && $el.css('position') == 'fixed'){
-          $('.fixedElement').css({'position': 'relative', 'margin-top': '15px'});
-        }
-      });
-      $(".open-mobile-menu").click(function() {
-        alert( "Handler for .click() called." );
-      });
-    </script>
-
     <?php wp_head(); ?>
   </head>
   <body>
