@@ -4,6 +4,6 @@
       </div>
     </div>
 
-    <script type="text/javascript" src="/wp-content/themes/WDRD%202017/app.min.js" ></script>
+    <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri();?>/app.min.js" ></script>
   </body>
 </html>
