@@ -1,5 +1,5 @@
 <?php while(have_posts() ) : the_post(); ?>
-  <article class="page">
+  <article class="page paragraph-breaks">
     <header>
       <h3>
         <a href="<?php the_permalink();?>"><?php the_title();?></a>

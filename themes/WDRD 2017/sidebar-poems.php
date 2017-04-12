@@ -1,6 +1,6 @@
 <mark>`sidebar-poems.php`</mark>
-<h3>Poems</h3>
-<h4>From <em>Opening the Mouth of the Dead</em></h4>
+<h5>Poems</h5>
+<h6>From <em>Opening the Mouth of the Dead</em></h6>
 <ul class="leftnav">
   <?php
     global $wp_query;
@@ -12,7 +12,7 @@
   <?php endwhile;?>
 </ul>
 
-<h4>Other Poems</h4>
+<h6>Other Poems</h6>
 <ul>
   <?php $other_query = new WP_Query('cat=3&category__not_in=4&posts_per_page=-1');
     while( $other_query->have_posts() ) : $other_query->the_post();

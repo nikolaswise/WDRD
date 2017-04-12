@@ -9,22 +9,18 @@ get_header();
 <div id="main">
   <div class="wrap">
     <div class="layout-aside">
-	  <h3><a href="mailto:lonegoose1@comcast.net">Preorder</a> at lone goose press.</h3>
-      <h3><a href="http://catherinewoodard.com/wp-content/uploads/2017/02/Opening-press-release.docx.zip" target="_blank">Download</a> the press release.</h3>
+
+      <img src="http://vagrantpress.dev/wp-content/uploads/2017/02/cover-198x300.png" class="fill attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="">
+
+  	  <h4><a href="mailto:lonegoose1@comcast.net">Preorder</a> at lone goose press.</h4>
+      <h4><a href="http://catherinewoodard.com/wp-content/uploads/2017/02/Opening-press-release.docx.zip" target="_blank">Download</a> the press release.</h4>
 
     </div>
+
     <div class="layout-main">
       <?php while(have_posts() ) : the_post(); ?>
         <div class="page">
-          <?php if(catch_that_image()): ?>
-            <img src="<?php echo catch_that_image();?>" />
-          <?php endif; ?>
-          <?php
-            $content = get_the_content('Read more');
-            $content = preg_replace('/<img[^>]+./','', $content, 1); // Remove first image of Post
-            $content = apply_filters('the_content', $content);
-            echo $content;
-          ?>
+          <?php the_content() ?>
         </div>
       <?php endwhile ?>
     </div>
