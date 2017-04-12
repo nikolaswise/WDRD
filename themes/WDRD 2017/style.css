@@ -173,6 +173,12 @@ blockquote {
   .layout-aside {
     margin-top: 28px;
   }
+  .small-center {
+    text-align: center;
+  }
+  img#logo {
+    float: none !important;
+  }
 }
 @media (max-width: 740px) {
   .layout-main {

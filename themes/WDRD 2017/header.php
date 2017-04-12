@@ -30,11 +30,13 @@
   <body>
     <div id="header">
       <div class="wrap">
-        <div class="layout-aside">
+
+        <div class="layout-aside small-center">
           <a href="<?php echo home_url()?>">
             <img src="<?php echo get_stylesheet_directory_uri();?>/img/logo.png" id="logo" />
           </a>
         </div>
+
         <div class="layout-main">
           <div id="nav-container">
             <h1 class="nav-header">
