@@ -8,13 +8,13 @@
   <a class="open-mobile-sidenav" href="#">
     <h5>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" class="svg-icon"><path d="M28 8H4c-1.1 0-2-.9-2-2s.9-2 2-2h24c1.1 0 2 .9 2 2s-.9 2-2 2zm0 10H4c-1.1 0-2-.9-2-2s.9-2 2-2h24c1.1 0 2 .9 2 2s-.9 2-2 2zm0 10H4c-1.1 0-2-.9-2-2s.9-2 2-2h24c1.1 0 2 .9 2 2s-.9 2-2 2z"/></svg>
-      <?php echo ucwords(get_post_type( get_the_ID() )) ?>
+      <?php echo ucwords(get_post_type( get_the_ID() )) ?> Menu
     </h5>
   </a>
   <a class="close-mobile-sidenav" href="#">
     <h5>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" class="svg-icon"><path d="M18.404 16l9.9 9.9-2.404 2.404-9.9-9.9-9.9 9.9L3.696 25.9l9.9-9.9-9.9-9.898L6.1 3.698l9.9 9.899 9.9-9.9 2.404 2.406-9.9 9.898z"/></svg>
-      Close
+      Close Menu
     </h5>
   </a>
 </div>

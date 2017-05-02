@@ -231,6 +231,9 @@ blockquote {
   float: left;
 }
 @media (max-width: 761px) {
+  .small-center {
+    display: none;
+  }
   .navigation-internal {
     width: 100%;
     text-align: center;
@@ -254,6 +257,9 @@ blockquote {
   .navigation-internal,
   .navigation-external {
     display: none;
+  }
+  .wrap {
+    padding: 0;
   }
 }
 
@@ -362,6 +368,30 @@ img.fill {
 }
 .img-padded-right img {
   padding-right: 20px;
+}
+
+/* Cover Page */
+.img-float-left {
+  float: left;
+  padding-right: 20px;
+}
+@media (max-width: 557px) {
+  .img-float-left {
+    float: none;
+    padding-right: 0;
+    padding-bottom: 20px;
+    width: 100%;
+  }
+}
+
+.panel-link {
+  display: block;
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.panel-link:hover {
+  background-color: #fdfdfd;
 }
 
 /* Poems */
