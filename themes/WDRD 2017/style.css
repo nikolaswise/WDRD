@@ -231,6 +231,9 @@ blockquote {
   float: left;
 }
 @media (max-width: 761px) {
+  .small-center {
+    display: none;
+  }
   .navigation-internal {
     width: 100%;
     text-align: center;
@@ -254,6 +257,9 @@ blockquote {
   .navigation-internal,
   .navigation-external {
     display: none;
+  }
+  .wrap {
+    padding: 0;
   }
 }
 

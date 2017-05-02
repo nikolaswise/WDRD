@@ -20,6 +20,7 @@
         );
     	?>
     </title>
+    <meta name="viewport" content="width=device-width, user-scalable=no">
     <link type="text/css" rel="stylesheet" href="//fast.fonts.net/cssapi/8228808c-823c-4bbf-acc6-972f35722f91.css"/>
     <link rel="stylesheet" type="text/css" media="screen" href="<?php echo get_stylesheet_directory_uri();?>/style.css" />
     <link rel="stylesheet" type="text/css" media="print" href="<?php echo get_stylesheet_directory_uri();?>/print.css" />
