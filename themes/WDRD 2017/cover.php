@@ -9,17 +9,30 @@ get_header();
 <div id="main">
   <div class="wrap">
     <div class="layout-aside">
-
-      <img src="http://vagrantpress.dev/wp-content/uploads/2017/02/cover-198x300.png" class="fill attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="">
-
-  	  <h4><a href="mailto:lonegoose1@comcast.net">Preorder</a> at lone goose press.</h4>
-      <h4><a href="http://catherinewoodard.com/wp-content/uploads/2017/02/Opening-press-release.docx.zip" target="_blank">Download</a> the press release.</h4>
-
+      <?php
+        $orderText = get_field( "order_link_text" );
+        $orderURL = get_field( "order_link_url" );
+        if ($orderText && $orderURL):
+      ?>
+        <a href="<?php echo $orderURL; ?>" class="panel-link">
+          <h4><?php echo $orderText; ?></h4>
+        </a>
+      <?php endif; ?>
+      <?php
+        $presserText = get_field( "press_release_text" );
+        $presserURL = get_field( "press_release_url" );
+        if ($presserText && $presserURL):
+      ?>
+        <a href="<?php echo $presserURL; ?>" class="panel-link">
+          <h4><?php echo $presserText; ?></h4>
+        </a>
+      <?php endif; ?>
     </div>
 
     <div class="layout-main">
       <?php while(have_posts() ) : the_post(); ?>
         <div class="page">
+          <img class="img-float-left" src="<?php the_post_thumbnail_url() ?>" alt="<?php the_title() ?>">
           <?php the_content() ?>
         </div>
       <?php endwhile ?>

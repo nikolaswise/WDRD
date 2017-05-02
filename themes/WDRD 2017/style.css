@@ -364,6 +364,30 @@ img.fill {
   padding-right: 20px;
 }
 
+/* Cover Page */
+.img-float-left {
+  float: left;
+  padding-right: 20px;
+}
+@media (max-width: 557px) {
+  .img-float-left {
+    float: none;
+    padding-right: 0;
+    padding-bottom: 20px;
+    width: 100%;
+  }
+}
+
+.panel-link {
+  display: block;
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.panel-link:hover {
+  background-color: #fdfdfd;
+}
+
 /* Poems */
 .poemnav {
   position: absolute;
